@@ -1,0 +1,25 @@
+{
+  "name": "@dyy/cli",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "dingyongya <yahya_dyy@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://47.102.217.78:4873/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@dyy/cli.test.js"
+  },
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
+}
