@@ -22,5 +22,6 @@
   "dependencies": {
     "fs-extra": "^11.1.0",
     "init-package-json": "^4.0.1"
-  }
+  },
+  "gitHead": "9c866d09dba1d5bd8e89214f9b986b92be3ed589"
 }

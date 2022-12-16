@@ -19,7 +19,7 @@ class CreateCommand {
         await fs.mkdirp(this.testDir)
 
         await initPackageJson(targetDir, "")
-
+        console.log('创建成功')
     }
    
 }
