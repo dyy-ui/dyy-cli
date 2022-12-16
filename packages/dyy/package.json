@@ -1,6 +1,6 @@
 {
   "name": "dyy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "dingyongya <yahya_dyy@163.com>",
   "homepage": "",
@@ -23,8 +23,8 @@
     "test": "node ./__tests__/dyy.test.js"
   },
   "dependencies": {
-    "@dyy/cli":"^0.0.0",
-    "@dyy/init":"^0.0.0",
-    "@dyy/create":"^0.0.0"
+    "@dyy/cli": "^0.0.1",
+    "@dyy/create": "^0.0.1",
+    "@dyy/init": "^0.0.1"
   }
 }
