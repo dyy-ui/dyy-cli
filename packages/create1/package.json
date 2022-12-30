@@ -1,13 +1,14 @@
 {
-  "name": "add",
-  "version": "0.0.3",
+  "name": "create1",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "dingyongya <yahya_dyy@163.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/add.js",
+  "main": "lib/create1.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "__tests__"
   },
   "files": [
     "lib"
@@ -19,7 +20,7 @@
     "type": "git",
     "url": "https://gitee.com/dingyongya/dyy-cli.git"
   },
-  "dependencies": {
-    "yeoman-generator": "^5.7.0"
+  "scripts": {
+    "test": "node ./__tests__/create1.test.js"
   }
 }

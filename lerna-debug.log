@@ -8,7 +8,7 @@
 60 error npm ERR! 404 tarball, folder, http url, or git url.
 60 error
 60 error npm ERR! A complete log of this run can be found in:
-60 error npm ERR!     C:\Users\dingyongya\AppData\Local\npm-cache\_logs\2022-12-30T06_31_55_938Z-debug-0.log
+60 error npm ERR!     C:\Users\dingyongya\AppData\Local\npm-cache\_logs\2022-12-30T06_34_20_609Z-debug-0.log
 60 error     at makeError (C:\project\dyy-cli\node_modules\execa\lib\error.js:60:11)
 60 error     at handlePromise (C:\project\dyy-cli\node_modules\execa\index.js:118:26)
 60 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)

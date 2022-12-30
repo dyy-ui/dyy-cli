@@ -1,6 +1,6 @@
 {
   "name": "dyy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "dingyongya <yahya_dyy@163.com>",
   "homepage": "",
@@ -23,11 +23,10 @@
     "test": "node ./__tests__/dyy.test.js"
   },
   "dependencies": {
-    "@dyy/add": "^0.0.2",
-    "@dyy/cli": "^0.0.3",
-    "@dyy/create": "^0.0.3",
-    "@dyy/init": "^0.0.3",
-    "yeoman-generator": "^5.7.0"
+    "@dyy/cli": "^0.0.4",
+    "@dyy/create": "^0.0.4",
+    "@dyy/create1": "^0.0.4",
+    "@dyy/init": "^0.0.4"
   },
   "gitHead": "9c866d09dba1d5bd8e89214f9b986b92be3ed589"
 }
