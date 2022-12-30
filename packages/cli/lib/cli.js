@@ -21,11 +21,10 @@ function cli() {
     .recommendCommands()
     .fail((msg, error)=> {
         console.log(msg)
-        console.log(error)
     })
     .alias("h", "help")
     .alias("v", "version")
-    .epilogue(`lajdslfjaldjfaldjflajdlajsdlfjaldf`);
+    .epilogue(`创建结束，欢迎使用脚手架创建工具！`);
 }
 
 module.exports = cli;

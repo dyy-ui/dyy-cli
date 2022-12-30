@@ -20,7 +20,8 @@
     "test": "node ./__tests__/@dyy/cli.test.js"
   },
   "dependencies": {
-    "yargs": "^17.6.2"
+    "yargs": "^17.6.2",
+    "yeoman-generator": "^5.7.0"
   },
   "gitHead": "9c866d09dba1d5bd8e89214f9b986b92be3ed589"
 }

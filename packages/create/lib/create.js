@@ -10,7 +10,6 @@ class CreateCommand {
     }
 
     async execute() {
-        console.log('init git')
         const {name} = this.options;
         const targetDir= path.join(this.rootPath, `package/${name}`);
         this.libDir = path.join(targetDir, `lib`)

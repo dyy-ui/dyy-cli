@@ -1,11 +1,11 @@
 {
-  "name": "@dyy/create",
+  "name": "add",
   "version": "0.0.2",
   "description": "> TODO: description",
   "author": "dingyongya <yahya_dyy@163.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/create.js",
+  "main": "lib/add.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -16,13 +16,14 @@
   "publishConfig": {
     "registry": "http://47.102.217.78:4873/"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/dingyongya/dyy-cli.git"
+  },
   "scripts": {
-    "test": "node ./__tests__/@dyy/create.test.js"
+    "test": "node ./__tests__/add.test.js"
   },
   "dependencies": {
-    "fs-extra": "^11.1.0",
-    "init-package-json": "^4.0.1",
     "yeoman-generator": "^5.7.0"
-  },
-  "gitHead": "9c866d09dba1d5bd8e89214f9b986b92be3ed589"
+  }
 }
