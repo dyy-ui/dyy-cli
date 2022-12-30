@@ -1,13 +1,15 @@
-0 silly argv {
-0 silly argv   _: [ 'add' ],
-0 silly argv   globs: [ 'packages/init' ],
-0 silly argv   lernaVersion: '6.1.0',
-0 silly argv   '$0': 'C:\\Users\\dingyongya\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
-0 silly argv   pkg: 'fs-extran'
-0 silly argv }
-1 notice cli v6.1.0
-2 verbose rootPath C:\project\dyy-cli
-3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/fs-extran - Not found
-3 error     at C:\project\dyy-cli\node_modules\npm-registry-fetch\lib\check-response.js:95:15
-3 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
-3 error     at async RegistryFetcher.packument (C:\project\dyy-cli\node_modules\pacote\lib\registry.js:92:19)
+60 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+60 error npm ERR! code E404
+60 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/@dyy%2fadd - Not found
+60 error npm ERR! 404
+60 error npm ERR! 404  '@dyy/add@^0.0.2' is not in this registry.
+60 error npm ERR! 404
+60 error npm ERR! 404 Note that you can also install from a
+60 error npm ERR! 404 tarball, folder, http url, or git url.
+60 error
+60 error npm ERR! A complete log of this run can be found in:
+60 error npm ERR!     C:\Users\dingyongya\AppData\Local\npm-cache\_logs\2022-12-30T06_31_55_938Z-debug-0.log
+60 error     at makeError (C:\project\dyy-cli\node_modules\execa\lib\error.js:60:11)
+60 error     at handlePromise (C:\project\dyy-cli\node_modules\execa\index.js:118:26)
+60 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+60 error     at async Promise.all (index 0)
