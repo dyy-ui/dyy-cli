@@ -23,30 +23,30 @@
     "chalk" "^2.0.0"
     "js-tokens" "^4.0.0"
 
-"@dyy/add@^0.0.6", "@dyy/add@file:C:\\project\\dyy-cli\\packages\\add":
+"@dyy/add@^0.0.7", "@dyy/add@file:C:\\project\\dyy-cli\\packages\\add":
   "resolved" "file:packages/add"
-  "version" "0.0.6"
+  "version" "0.0.7"
   dependencies:
     "fs-extra" "^11.1.0"
     "init-package-json" "^4.0.1"
 
-"@dyy/cli@^0.0.6", "@dyy/cli@file:C:\\project\\dyy-cli\\packages\\cli":
+"@dyy/cli@^0.0.7", "@dyy/cli@file:C:\\project\\dyy-cli\\packages\\cli":
   "resolved" "file:packages/cli"
-  "version" "0.0.6"
+  "version" "0.0.7"
   dependencies:
     "yargs" "^17.6.2"
 
-"@dyy/create@^0.0.6", "@dyy/create@file:C:\\project\\dyy-cli\\packages\\create":
+"@dyy/create@^0.0.7", "@dyy/create@file:C:\\project\\dyy-cli\\packages\\create":
   "resolved" "file:packages/create"
-  "version" "0.0.6"
+  "version" "0.0.7"
   dependencies:
     "fs-extra" "^11.1.0"
     "init-package-json" "^4.0.1"
     "yeoman-generator" "^5.7.0"
 
-"@dyy/init@^0.0.6", "@dyy/init@file:C:\\project\\dyy-cli\\packages\\init":
+"@dyy/init@^0.0.7", "@dyy/init@file:C:\\project\\dyy-cli\\packages\\init":
   "resolved" "file:packages/init"
-  "version" "0.0.6"
+  "version" "0.0.7"
   dependencies:
     "execa" "5.1.0"
     "fs-extra" "^11.1.0"
@@ -2144,12 +2144,12 @@
 
 "dyy@file:C:\\project\\dyy-cli\\packages\\dyy":
   "resolved" "file:packages/dyy"
-  "version" "0.0.6"
+  "version" "0.0.7"
   dependencies:
-    "@dyy/add" "^0.0.5"
-    "@dyy/cli" "^0.0.5"
-    "@dyy/create" "^0.0.5"
-    "@dyy/init" "^0.0.5"
+    "@dyy/add" "^0.0.6"
+    "@dyy/cli" "^0.0.6"
+    "@dyy/create" "^0.0.6"
+    "@dyy/init" "^0.0.6"
 
 "ejs@^3.1.7", "ejs@^3.1.8":
   "integrity" "sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ=="

@@ -3,7 +3,7 @@
 ### 安装
 
 ```js
-npm install -g @dyy-cli
+npm install -g dyy --registry=http://47.102.217.78:4873/
 ```
 
 ### 使用
