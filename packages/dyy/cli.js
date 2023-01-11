@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-require('.')(process.argv.slice(2))
+const argv = process.argv.slice(2)
+require('.')(argv)

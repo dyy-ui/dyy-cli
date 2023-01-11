@@ -1,7 +1,7 @@
-exports.command = "create <name>";
-exports.describe = "创建12313"
+exports.command = "add <name>";
+exports.describe = "创建一个测试例子"
 exports.builder = (yargs) => {
-    yargs.positional("name", {
+        yargs.positional("name", {
         // dyy create XXX
         type: 'string',
         describe: "包名"

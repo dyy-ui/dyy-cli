@@ -20,7 +20,7 @@
     "test": "node ./__tests__/@dyy/init.test.js"
   },
   "dependencies": {
-    "execa": "5.1.1",
+    "execa": "5.1.0",
     "fs-extra": "^11.1.0"
   },
   "gitHead": "9c866d09dba1d5bd8e89214f9b986b92be3ed589"

@@ -4,6 +4,12 @@
 lerna create <包名> --registry http://47.102.217.78:4873/
 ```
 
+### 安装依赖
+
+```js
+lerna add <name> packages/add
+```
+
 ### 以 node 环境运行
 
 ```bash
