@@ -1,11 +1,13 @@
 # `dyy`
 
-> TODO: description
+### 安装
 
-## Usage
-
+```js
+npm install -g @dyy-cli
 ```
-const dyy = require('dyy');
 
-// TODO: DEMONSTRATE API
+### 使用
+
+```js
+dyy create <name> // 创建脚手架命令
 ```
